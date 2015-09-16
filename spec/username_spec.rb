@@ -58,8 +58,8 @@ describe "#format_year" do
 end
 
 describe "#check_privilege" do
-  let (:user_types) { ["user", "seller", "manager", "admin"] }
 
+ let (:user_types) { ["user", "seller", "manager", "admin"] }
 
   it "returns the corresponding user type" do
     user_types.each_with_index do |utype, i|
